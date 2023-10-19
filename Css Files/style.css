@@ -69,10 +69,10 @@ a {
     transition: all .5s ease;
 }
 
-.logo {
+/* .logo {
     font-size: 24px;
     font-weight: 600;
-}
+} */
 
 .my-text-shadow {
     transition: all .4s linear;
@@ -229,6 +229,10 @@ a {
     #resume-section .box-content .left-info p.descrip-res{
         font-size: 30px;
     }
+    #resume-section .box-content .right-info .progress {
+        width: 200px;
+    }
+
 }
 
 /*
