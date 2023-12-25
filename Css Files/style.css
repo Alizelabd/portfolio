@@ -3,6 +3,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
+    scroll-padding-top: 120px;
 }
 
 :root {
@@ -85,14 +86,14 @@ a {
 
 /*
 =====================
-==End Ready Class====
+== End Ready Class===
 =====================
 */
 /*Start Arrow UP-------------*/
 .top-scroll #arrow-up {
     position: fixed;
     bottom: 40px;
-    right: 10px;
+    right: 20px;
     background-color: var(--sunglow-color);
     border: 1px solid #fff;
     color: var(--bg-dark-body);
@@ -108,10 +109,10 @@ a {
 ==Start Home Into====
 =====================
 */
-#home-into .image img {
+/* #home-into .image img {
     width: 300px;
     height: auto;
-}
+} */
 
 #home-into .info h2 {
     font-size: 50px !important;
@@ -358,6 +359,9 @@ a {
     background-color: var(--bg-dark-body);
     padding: 5px 15px;
     border-radius: 5px;
+}
+#contact-section .social-media a i{
+    width: 25px;
 }
 
 #contact-section .social-media a:hover {
