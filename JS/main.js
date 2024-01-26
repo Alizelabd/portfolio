@@ -27,7 +27,7 @@ function navbarFunc() {
     }
 }
 //---------------- 
-function arrowUpFunc(){
+function arrowUpFunc() {
     if (window.scrollY != arrowUp.scrollTop) {
         arrowUp.style.display = "block";
     } else {
@@ -45,3 +45,5 @@ arrowUp.onclick = () => {
         behavior: "smooth"
     });
 };
+const yearsCopyRight = document.getElementById("years");
+yearsCopyRight.innerHTML = new Date().getFullYear();

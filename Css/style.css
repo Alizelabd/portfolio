@@ -320,6 +320,10 @@ a {
     /* z-index: -1; */
 }
 
+#projects-section .box:hover {
+    box-shadow: 0 -40px 37px #ffc75783 inset;
+    transition: all 0.5s linear;
+}
 #projects-section .box:hover.box .image-project img {
     transform: scale(1.2);
 }
@@ -328,11 +332,16 @@ a {
     opacity: 1;
     z-index: 1;
     top: 0;
+    backdrop-filter: blur(3px);
 }
 
 #projects-section .box .image-project .projects-links a {
     display: block;
-    color: var(--sunglow-color);
+    color: var(--bg-dark-sec);
+    font-size: clamp(19px, 21px, 5vw);
+    background-color: var(--sunglow-color);
+    padding: 6px 10px;
+    border-radius: 5px;
 }
 
 /*
