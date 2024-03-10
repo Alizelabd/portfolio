@@ -56,6 +56,38 @@ a {
     color: var(--sunglow-color);
 }
 
+/* only in ramadan----------------------------- */
+.ramadan {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    z-index: 9999;
+    transition: .3s all linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
+    animation: ramadan 3s linear;
+}
+
+@keyframes ramadan {
+    from{
+        top: -300px;
+    } 
+    to{
+        top: 0;
+    }
+}
+
+.ramadan>img {
+    width: 100%;
+}
+
+.ramadan.left {
+    left: 0;
+}
+
+.ramadan.right {
+    right: 0;
+}
+
+/* only in ramadan----------------------------- */
 /* Fixed Nav*/
 .fix {
     position: fixed;
@@ -227,9 +259,11 @@ a {
         text-align: center !important;
         margin-bottom: 30px;
     }
-    #resume-section .box-content .left-info p.descrip-res{
+
+    #resume-section .box-content .left-info p.descrip-res {
         font-size: 30px;
     }
+
     #resume-section .box-content .right-info .progress {
         width: 200px;
     }
@@ -246,7 +280,7 @@ a {
 ===START Technologies== 
 ========================
 */
-#tech-section .box-tech{
+#tech-section .box-tech {
     margin-top: 20px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -256,7 +290,8 @@ a {
     gap: 25px;
     flex-wrap: wrap;
 }
-#tech-section .box-tech .tech-icon{
+
+#tech-section .box-tech .tech-icon {
     color: #fff;
     font-size: 35px;
     background-color: var(--bg-dark-body);
@@ -267,6 +302,7 @@ a {
     align-items: center;
     user-select: none;
 }
+
 /*
 =====================
 ===End Technologies== 
@@ -324,6 +360,7 @@ a {
     box-shadow: 0 -40px 37px #ffc75783 inset;
     transition: all 0.5s linear;
 }
+
 #projects-section .box:hover.box .image-project img {
     transform: scale(1.2);
 }
@@ -369,7 +406,8 @@ a {
     padding: 5px 15px;
     border-radius: 5px;
 }
-#contact-section .social-media a i{
+
+#contact-section .social-media a i {
     width: 25px;
 }
 
