@@ -74,7 +74,22 @@ a {
         top: 0;
     }
 }
-
+@-webkit-keyframes ramadan {
+    from{
+        top: -300px;
+    } 
+    to{
+        top: 0;
+    }
+}
+@-moz-keyframes ramadan {
+    from{
+        top: -300px;
+    }
+    to{
+        top: 0;
+    }
+}
 .ramadan>img {
     width: 100%;
 }
