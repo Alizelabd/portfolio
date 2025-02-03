@@ -56,53 +56,7 @@ a {
     color: var(--sunglow-color);
 }
 
-/* only in ramadan----------------------------- */
-.ramadan {
-    position: fixed;
-    width: 200px;
-    height: 200px;
-    z-index: 9999;
-    transition: .3s all linear;
-    animation: ramadan 3s linear;
-}
 
-@keyframes ramadan {
-    from{
-        top: -300px;
-    } 
-    to{
-        top: 0;
-    }
-}
-@-webkit-keyframes ramadan {
-    from{
-        top: -300px;
-    } 
-    to{
-        top: 0;
-    }
-}
-@-moz-keyframes ramadan {
-    from{
-        top: -300px;
-    }
-    to{
-        top: 0;
-    }
-}
-.ramadan>img {
-    width: 100%;
-}
-
-.ramadan.left {
-    left: 0;
-}
-
-.ramadan.right {
-    right: 0;
-}
-
-/* only in ramadan----------------------------- */
 /* Fixed Nav*/
 .fix {
     position: fixed;
